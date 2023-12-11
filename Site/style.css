@@ -55,17 +55,24 @@ h1 {
   color: azure;
 }
 
-.image1 img{
+.paragraph1 img{
   height: auto;
   width: 800px;
   right: 50px;
   position:relative;
   margin-left: 50px;
   margin-top: 20px;
+  border-radius: 5px;
+}
+
+.paragraph1 {
+
 }
 
 
-.image2{
-  transform: scale(0.3);
-  margin-left:10px;
+.paragraph2 img{
+  height: auto;
+  width: 800px;
+  border-radius: 5px;
+  margin-left: 700px;
 }
