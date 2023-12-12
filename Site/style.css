@@ -86,7 +86,7 @@ h1 {
   right: 50px;
   position:relative;
   margin-left: 50px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .image2{
@@ -107,7 +107,7 @@ h1 {
 } 
 
 .content1{
-  width: 45%;
+  width: 50%;
   float: left;
   font-family:'Open Sans', sans-serif;
   font-size: 30px;
@@ -116,24 +116,21 @@ h1 {
     padding: 20px;
 }
 
-
-
-.container2{
-  max-width: 1000px;
-  margin: 0 auto;
-  float: right;
-  margin-right:60px;
-} 
-
 .content2{
-  text-align: right;
-  width: 49%;
-  float: right;
+  margin-top: -3150px;
+  margin-right: 50px;
+  text-align: left;
+  width: 50%;
+  float: left;
   font-family:'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   background-color: #ced4da;
     color: #555; 
-    padding: 20px;
+    padding: 15px;
+}
+
+.content2 li {
+  margin-bottom: 10px; 
 }
 
 .table{
@@ -147,4 +144,28 @@ h1 {
   color: #e0e1dd;
   font-family:'Open Sans', sans-serif;
   padding: 12px;
+}
+
+.history_JPG_1{
+  transform: scale(0.28);
+  float: right;
+  margin-right: -350px;
+  margin-top: 60px;
+  height: 100px;
+}
+
+.history_JPG_2{
+  transform: scale(0.80);
+}
+
+.history_JPG_3{
+  transform: scale(0.80);
+}
+
+.history_JPG_4{
+  transform: scale(0.3);
+}
+
+.history_JPG_5{
+  transform: scale(0.25);
 }
