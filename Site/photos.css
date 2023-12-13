@@ -1,0 +1,23 @@
+.history_JPG_1{
+    transform: scale(0.28);
+    float: right;
+    margin-left: 350px;
+    margin-top: 60px;
+    height: 100px;
+  }
+  
+  .history_JPG_2{
+    transform: scale(0.80);
+  }
+  
+  .history_JPG_3{
+    transform: scale(0.80);
+  }
+  
+  .history_JPG_4{
+    transform: scale(0.3);
+  }
+  
+  .history_JPG_5{
+    transform: scale(0.25);
+  }

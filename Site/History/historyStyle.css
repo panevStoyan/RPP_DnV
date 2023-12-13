@@ -1,0 +1,149 @@
+body {
+    background-color: #e0e1dd;
+  }
+  
+  .logo {
+    height: 0px;
+    right: -150x;
+    transform: scale(0.12);
+    position:relative;
+    margin-left: -950px;
+    margin-top: -10px;
+  }
+  
+  .top-page1{
+    background-color: #778DA9;
+    color: #8aa5b6; 
+    padding: 20px;
+    height: 160px;
+    border-radius: 7px;
+  }
+  .top-page{
+    background-color: #778DA9;
+    color: #8aa5b6; 
+    padding: 20px;
+    height: 166px;
+    border-radius: 7px;
+  }
+  
+  h1 {
+    text-align:center;
+    font-family:'Open Sans', sans-serif;
+    color: #e0e1dd; 
+  }
+  
+  .menu a {
+    color: #e0e1dd;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .menu a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #e0e1dd;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+  .menu a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  .menu{
+    height: 60px;
+    position: relative;
+    margin-top: 50px;
+    background-color: #415A77;
+    border-radius: 10px;
+  }
+  
+  .menu ul{
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  /*individual text lines for the main menu*/
+  .menu li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: azure;
+  }
+  
+  .image1 img{
+    height: auto;
+    width: 610px;
+    right: 50px;
+    position:relative;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  
+  .image2{
+    transform: scale(0.67);
+    float: right;
+    margin-right: -130px;
+    height: 80px;
+   /* background-color: #ced4da; 
+    */
+  }
+  
+  
+  .container1{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 20px;
+    width:860px;
+  } 
+  
+  .content1{
+    width: 50%;
+    float: left;
+    font-family:'Open Sans', sans-serif;
+    font-size: 30px;
+    background-color: #ced4da;
+      color: #555; 
+      padding: 20px;
+  }
+  
+  .content2{
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 50px;
+    text-align: left;
+    width: 50%;
+    float: left;
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: #ced4da;
+      color: #555; 
+      padding: 15px;
+  }
+  
+  .content2 li {
+    margin-bottom: 10px; 
+  }
+  
+  .table{
+    background-color: #586d86;
+    margin-top: 40px;
+    border: 5px solid #0D1B2A;
+  }
+  
+  .table th, .table td{
+    border: 1px solid #0D1B2A;
+    color: #e0e1dd;
+    font-family:'Open Sans', sans-serif;
+    padding: 12px;
+  }
+  
