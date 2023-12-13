@@ -117,7 +117,8 @@ h1 {
 }
 
 .content2{
-  margin-top: -3150px;
+  position: absolute;
+  margin-top: 10px;
   margin-right: 50px;
   text-align: left;
   width: 50%;
@@ -144,28 +145,4 @@ h1 {
   color: #e0e1dd;
   font-family:'Open Sans', sans-serif;
   padding: 12px;
-}
-
-.history_JPG_1{
-  transform: scale(0.28);
-  float: right;
-  margin-right: -350px;
-  margin-top: 60px;
-  height: 100px;
-}
-
-.history_JPG_2{
-  transform: scale(0.80);
-}
-
-.history_JPG_3{
-  transform: scale(0.80);
-}
-
-.history_JPG_4{
-  transform: scale(0.3);
-}
-
-.history_JPG_5{
-  transform: scale(0.25);
 }

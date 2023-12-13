@@ -4,4 +4,5 @@ document.addEventListener('copy', function (event) {
         event.preventDefault();
         alert('No copying here m8, get fucked :D');
     }
+    //thanks for the explenation
 });
